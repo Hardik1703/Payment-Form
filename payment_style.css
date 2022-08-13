@@ -1,0 +1,74 @@
+* {
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 15px 30px;
+    font-size: 17px;
+    padding: 8px;
+}
+
+.container{
+    background-color:#f2f2f2;
+    padding: 5px 20px 15px 20px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+p{
+    font-weight: bolder;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="number"],
+input[type="month"],
+input[type="address"],
+input[type="date"],
+input[type="password"],
+select,
+textarea{
+
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+input[type="text"]:hover,
+input[type="email"]:hover,
+input[type="number"]:hover,
+input[type="month"]:hover,
+input[type="address"]:hover,
+input[type="date"]:hover,
+input[type="password"]:hover,
+select:hover,
+textarea:hover{
+    background-color: #f3e9d5a4;
+}
+
+
+fieldset{
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.heading{
+    text-align: center;
+}
+
+button{
+    width: 100%;
+    background-color: #4daea1;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+button:hover{
+    background-color:#4caf84 ;
+}
